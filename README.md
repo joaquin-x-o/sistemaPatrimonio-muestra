@@ -4,7 +4,7 @@ Muestra de avance del desarrollo de la API de una aplicación web para gestionar
 En caso de testear:
 1. Configurar variables de entorno
 2. Ejecutar
-npm run seed: demo
-npm run dev
+- npm run seed: demo
+- npm run dev
 3. Testear con colección de postman
 
