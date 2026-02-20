@@ -1,0 +1,47 @@
+{
+  "compilerOptions": {
+    // Output folders
+    "rootDir": "./src",
+    "outDir": "./build",
+
+    // Modules: CommonJS (estándar para backends TS)
+    "module": "commonjs",
+    "target": "es2020",
+
+    "useDefineForClassFields": false,
+
+    // Node.js types
+    //"lib": ["es2020"],
+    //"types": ["node"],
+    "typeRoots": ["./node_modules/@types", "./src/types"],
+
+    // Mapas y definiciones
+    "sourceMap": true,
+    "declaration": false,
+    "declarationMap": false,
+
+    // Strict mode
+    "strict": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+
+    // typeORM
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+
+    // Interoperabilidad
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+
+    // Performance
+    "skipLibCheck": true,
+  },
+  
+  "ts-node": {
+    "transpileOnly": false
+  },
+
+  "include": ["src/**/*"]
+}
